@@ -1,0 +1,243 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - menubar [ref=f5e9]:
+      - textbox [ref=f5e10]
+      - table [ref=f5e11]:
+        - rowgroup [ref=f5e12]:
+          - row [ref=f5e13]:
+            - menuitem "CRM/SFA" [ref=f5e14]
+            - menuitem [ref=f5e15]:
+              - link "Docs Wiki" [ref=f5e16] [cursor=pointer]:
+                - /url: http://www.opentaps.org/docs/?externalLoginKey=EL595808744257
+            - menuitem [ref=f5e17]:
+              - link "eCommerce" [ref=f5e18] [cursor=pointer]:
+                - /url: /ecommerce/control/main?externalLoginKey=EL595808744257
+    - link [ref=f5e20] [cursor=pointer]:
+      - /url: /opentaps/
+      - img "opentaps CRM" [ref=f5e21]
+  - generic [ref=f5e22]:
+    - generic [ref=f5e23]:
+      - text: democsr2 |
+      - link "Profile" [ref=f5e24] [cursor=pointer]:
+        - /url: /crmsfa/control/myProfile
+      - text: "|"
+      - link "Shortcuts" [ref=f5e25] [cursor=pointer]:
+        - /url: javascript:showKeyboardShortcutsHelp();
+      - text: "|"
+      - link "Logout" [ref=f5e26] [cursor=pointer]:
+        - /url: /crmsfa/control/logout
+    - generic [ref=f5e27]:
+      - table [ref=f5e36]:
+        - rowgroup [ref=f5e37]:
+          - row [ref=f5e38]:
+            - cell [ref=f5e39]:
+              - textbox [ref=f5e43]
+            - cell [ref=f5e44]:
+              - table [ref=f5e48] [cursor=pointer]:
+                - rowgroup [ref=f5e49]:
+                  - row "Search" [ref=f5e50]:
+                    - cell [ref=f5e51]
+                    - cell [ref=f5e53]:
+                      - emphasis [ref=f5e54]:
+                        - button "Search" [ref=f5e55]
+                    - cell [ref=f5e56]
+      - link [ref=f5e58] [cursor=pointer]:
+        - /url: http://www.opentaps.org/docs/index.php?title=My_Leads_Page&oldid=0
+        - img "Live help for this page on opentaps Wiki" [ref=f5e59]
+      - link [ref=f5e60] [cursor=pointer]:
+        - /url: http://www.opentaps.org/contact
+        - img "Get help from an opentaps Partner" [ref=f5e61]
+  - list:
+    - listitem [ref=f5e63]:
+      - link "My Home" [ref=f5e69] [cursor=pointer]:
+        - /url: /crmsfa/control/myHomeMain
+    - listitem [ref=f5e70]:
+      - link "Leads" [ref=f5e76] [cursor=pointer]:
+        - /url: /crmsfa/control/leadsMain
+    - listitem [ref=f5e77]:
+      - link "Contacts" [ref=f5e83] [cursor=pointer]:
+        - /url: /crmsfa/control/contactsMain
+    - listitem [ref=f5e84]:
+      - link "Accounts" [ref=f5e90] [cursor=pointer]:
+        - /url: /crmsfa/control/accountsMain
+    - listitem [ref=f5e91]:
+      - link "Cases" [ref=f5e97] [cursor=pointer]:
+        - /url: /crmsfa/control/casesMain
+    - listitem [ref=f5e98]:
+      - link "Activities" [ref=f5e104] [cursor=pointer]:
+        - /url: /crmsfa/control/activitiesMain
+    - listitem [ref=f5e105]:
+      - link "Orders" [ref=f5e111] [cursor=pointer]:
+        - /url: /crmsfa/control/ordersMain
+    - listitem [ref=f5e112]:
+      - link "opentaps" [ref=f5e118] [cursor=pointer]:
+        - /url: /opentaps?externalLoginKey=EL964432262951
+  - table [ref=f5e121]:
+    - rowgroup [ref=f5e122]:
+      - row [ref=f5e123]:
+        - 'cell "Last Viewed: Taylor Playwright Copilot… PWLead20261024_044500 Cre… testleaf testleaf (testle… Saranya Anbarasan (Testle… Saranya Anbarasan (Amazon… Ganesh A (Test Leaf Pvt L… Ganesh A (Test Leaf Pvt L…" [ref=f5e124]':
+          - list [ref=f5e125]:
+            - listitem [ref=f5e126]:
+              - generic [ref=f5e127]: "Last Viewed:"
+            - listitem [ref=f5e128]:
+              - link "Taylor Playwright Copilot…" [ref=f5e129] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11887
+            - listitem [ref=f5e130]:
+              - link "PWLead20261024_044500 Cre…" [ref=f5e131] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11886
+            - listitem [ref=f5e132]:
+              - link "testleaf testleaf (testle…" [ref=f5e133] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11882
+            - listitem [ref=f5e134]:
+              - link "Saranya Anbarasan (Testle…" [ref=f5e135] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11881
+            - listitem [ref=f5e136]:
+              - link "Saranya Anbarasan (Amazon…" [ref=f5e137] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11881
+            - listitem [ref=f5e138]:
+              - link "Ganesh A (Test Leaf Pvt L…" [ref=f5e139] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11880
+            - listitem [ref=f5e140]:
+              - link "Ganesh A (Test Leaf Pvt L…" [ref=f5e141] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11879
+  - generic [ref=f5e143]:
+    - generic [ref=f5e144]:
+      - generic [ref=f5e145]:
+        - generic [ref=f5e146]: Shortcuts
+        - list [ref=f5e152]:
+          - listitem [ref=f5e153]:
+            - link "My Leads" [ref=f5e154] [cursor=pointer]:
+              - /url: /crmsfa/control/myLeads
+          - listitem [ref=f5e155]:
+            - link "Create Lead" [ref=f5e156] [cursor=pointer]:
+              - /url: /crmsfa/control/createLeadForm
+          - listitem [ref=f5e157]:
+            - link "Find Leads" [ref=f5e158] [cursor=pointer]:
+              - /url: /crmsfa/control/findLeads
+          - listitem [ref=f5e159]:
+            - link "Request Catalog" [ref=f5e160] [cursor=pointer]:
+              - /url: /crmsfa/control/createCatalogRequestForm
+      - generic [ref=f5e161]: Create Account
+      - generic [ref=f5e169]: Create Contact
+      - generic [ref=f5e177]: Create Case
+      - generic [ref=f5e185]: Create Lead
+    - generic [ref=f5e193]:
+      - generic [ref=f5e194]: My Leads
+      - generic [ref=f5e213]:
+        - generic [ref=f5e217]:
+          - generic [ref=f5e218] [cursor=pointer]
+          - text: Lead List
+        - generic [ref=f5e222]:
+          - generic [ref=f5e225]:
+            - table [ref=f5e229]:
+              - rowgroup [ref=f5e230]:
+                - row [ref=f5e231]:
+                  - cell "Lead ID" [ref=f5e232]
+                  - cell "First name" [ref=f5e235]
+                  - cell "Last name" [ref=f5e237]
+                  - cell "Company Name" [ref=f5e239]
+                  - cell "City" [ref=f5e241]
+                  - cell "State/Province" [ref=f5e243]
+                  - cell "Phone Number" [ref=f5e245]
+                  - cell "E-Mail Address" [ref=f5e247]
+            - generic:
+              - link:
+                - /url: "#"
+          - table [ref=f5e251]:
+            - rowgroup [ref=f5e252]:
+              - row "Page 1 of 1 20 records per page. Export To Excel" [ref=f5e253]:
+                - cell [ref=f5e254]:
+                  - table [ref=f5e255]:
+                    - rowgroup [ref=f5e256]:
+                      - row [ref=f5e257]:
+                        - cell [ref=f5e258]
+                        - cell [ref=f5e260]:
+                          - emphasis [ref=f5e261]:
+                            - button [ref=f5e262]
+                        - cell [ref=f5e263]
+                - cell [ref=f5e265]:
+                  - table [ref=f5e266]:
+                    - rowgroup [ref=f5e267]:
+                      - row [ref=f5e268]:
+                        - cell [ref=f5e269]
+                        - cell [ref=f5e271]:
+                          - emphasis [ref=f5e272]:
+                            - button [ref=f5e273]
+                        - cell [ref=f5e274]
+                - cell [ref=f5e276]
+                - cell "Page" [ref=f5e278]
+                - cell [ref=f5e279]:
+                  - textbox [ref=f5e280]: "1"
+                - cell "of 1" [ref=f5e281]
+                - cell [ref=f5e282]
+                - cell [ref=f5e284]:
+                  - table [ref=f5e285]:
+                    - rowgroup [ref=f5e286]:
+                      - row [ref=f5e287]:
+                        - cell [ref=f5e288]
+                        - cell [ref=f5e290]:
+                          - emphasis [ref=f5e291]:
+                            - button [ref=f5e292]
+                        - cell [ref=f5e293]
+                - cell [ref=f5e295]:
+                  - table [ref=f5e296]:
+                    - rowgroup [ref=f5e297]:
+                      - row [ref=f5e298]:
+                        - cell [ref=f5e299]
+                        - cell [ref=f5e301]:
+                          - emphasis [ref=f5e302]:
+                            - button [ref=f5e303]
+                        - cell [ref=f5e304]
+                - cell [ref=f5e306]
+                - cell [ref=f5e308]:
+                  - table [ref=f5e309] [cursor=pointer]:
+                    - rowgroup [ref=f5e310]:
+                      - row [ref=f5e311]:
+                        - cell [ref=f5e312]
+                        - cell [ref=f5e314]:
+                          - emphasis [ref=f5e315]:
+                            - button [ref=f5e316]
+                        - cell [ref=f5e317]
+                - cell [ref=f5e319]:
+                  - textbox [ref=f5e320]: "20"
+                - cell "records per page." [ref=f5e321]
+                - cell [ref=f5e322]
+                - cell [ref=f5e324]:
+                  - table [ref=f5e325] [cursor=pointer]:
+                    - rowgroup [ref=f5e326]:
+                      - row "Export To Excel" [ref=f5e327]:
+                        - cell [ref=f5e328]
+                        - cell [ref=f5e330]:
+                          - emphasis [ref=f5e331]:
+                            - button "Export To Excel" [ref=f5e332]
+                        - cell [ref=f5e333]
+      - generic [ref=f5e338]:
+        - generic [ref=f5e339]:
+          - link "Opentaps Open Source ERP + CRM" [ref=f5e340] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+          - text: 1.5.0. opentaps is a trademark of
+          - link "Open Source Strategies, Inc." [ref=f5e341] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f5e342]:
+          - text: This application is free software under the terms of the
+          - link "Affero General Public License v3" [ref=f5e343] [cursor=pointer]:
+            - /url: http://www.opentaps.org/about-opentaps/licensing
+          - text: WITH ABSOLUTELY NO WARRANTY. It is also available under
+          - link "commercial licenses" [ref=f5e344] [cursor=pointer]:
+            - /url: http://www.opentaps.org/services-support/professional-edition
+          - text: from Open Source Strategies, Inc.
+        - generic [ref=f5e345]:
+          - text: (c)
+          - link "Open Source Strategies, Inc." [ref=f5e346] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f5e347]:
+          - text: To learn more about opentaps, follow us on
+          - link [ref=f5e348] [cursor=pointer]:
+            - /url: http://www.facebook.com/pages/opentaps/285070770315
+            - img "Facebook" [ref=f5e349]
+          - text: And
+          - link [ref=f5e350] [cursor=pointer]:
+            - /url: http://twitter.com/opentaps
+            - img "twitter" [ref=f5e351]
+  - iframe
+  - iframe

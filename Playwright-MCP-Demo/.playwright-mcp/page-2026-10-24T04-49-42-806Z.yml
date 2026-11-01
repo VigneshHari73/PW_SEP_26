@@ -1,0 +1,270 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - menubar [ref=f2e9]:
+      - textbox [ref=f2e10]
+      - table [ref=f2e11]:
+        - rowgroup [ref=f2e12]:
+          - row [ref=f2e13]:
+            - menuitem "CRM/SFA" [ref=f2e14]
+            - menuitem [ref=f2e15]:
+              - link "Docs Wiki" [ref=f2e16] [cursor=pointer]:
+                - /url: http://www.opentaps.org/docs/?externalLoginKey=EL988516131014
+            - menuitem [ref=f2e17]:
+              - link "eCommerce" [ref=f2e18] [cursor=pointer]:
+                - /url: /ecommerce/control/main?externalLoginKey=EL988516131014
+    - link [ref=f2e20] [cursor=pointer]:
+      - /url: /opentaps/
+      - img "opentaps CRM" [ref=f2e21]
+  - generic [ref=f2e22]:
+    - generic [ref=f2e23]:
+      - text: democsr2 |
+      - link "Profile" [ref=f2e24] [cursor=pointer]:
+        - /url: /crmsfa/control/myProfile;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+      - text: "|"
+      - link "Shortcuts" [ref=f2e25] [cursor=pointer]:
+        - /url: javascript:showKeyboardShortcutsHelp();
+      - text: "|"
+      - link "Logout" [ref=f2e26] [cursor=pointer]:
+        - /url: /crmsfa/control/logout;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+    - generic [ref=f2e27]:
+      - table [ref=f2e36]:
+        - rowgroup [ref=f2e37]:
+          - row [ref=f2e38]:
+            - cell [ref=f2e39]:
+              - textbox [ref=f2e43]
+            - cell [ref=f2e44]:
+              - table [ref=f2e48] [cursor=pointer]:
+                - rowgroup [ref=f2e49]:
+                  - row "Search" [ref=f2e50]:
+                    - cell [ref=f2e51]
+                    - cell [ref=f2e53]:
+                      - emphasis [ref=f2e54]:
+                        - button "Search" [ref=f2e55]
+                    - cell [ref=f2e56]
+      - link [ref=f2e58] [cursor=pointer]:
+        - /url: http://www.opentaps.org/contact
+        - img "Get help from an opentaps Partner" [ref=f2e59]
+  - list:
+    - listitem [ref=f2e61]:
+      - link "My Home" [ref=f2e67] [cursor=pointer]:
+        - /url: /crmsfa/control/myHomeMain
+    - listitem [ref=f2e68]:
+      - link "Leads" [ref=f2e74] [cursor=pointer]:
+        - /url: /crmsfa/control/leadsMain
+    - listitem [ref=f2e75]:
+      - link "Contacts" [ref=f2e81] [cursor=pointer]:
+        - /url: /crmsfa/control/contactsMain
+    - listitem [ref=f2e82]:
+      - link "Accounts" [ref=f2e88] [cursor=pointer]:
+        - /url: /crmsfa/control/accountsMain
+    - listitem [ref=f2e89]:
+      - link "Cases" [ref=f2e95] [cursor=pointer]:
+        - /url: /crmsfa/control/casesMain
+    - listitem [ref=f2e96]:
+      - link "Activities" [ref=f2e102] [cursor=pointer]:
+        - /url: /crmsfa/control/activitiesMain
+    - listitem [ref=f2e103]:
+      - link "Orders" [ref=f2e109] [cursor=pointer]:
+        - /url: /crmsfa/control/ordersMain
+    - listitem [ref=f2e110]:
+      - link "opentaps" [ref=f2e116] [cursor=pointer]:
+        - /url: /opentaps?externalLoginKey=EL830783145922;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+  - table [ref=f2e119]:
+    - rowgroup [ref=f2e120]:
+      - row [ref=f2e121]:
+        - 'cell "Last Viewed: Taylor Playwright Copilot… PWLead20261024_044500 Cre… testleaf testleaf (testle… Saranya Anbarasan (Testle… Saranya Anbarasan (Amazon… Ganesh A (Test Leaf Pvt L… Ganesh A (Test Leaf Pvt L…" [ref=f2e122]':
+          - list [ref=f2e123]:
+            - listitem [ref=f2e124]:
+              - generic [ref=f2e125]: "Last Viewed:"
+            - listitem [ref=f2e126]:
+              - link "Taylor Playwright Copilot…" [ref=f2e127] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11887
+            - listitem [ref=f2e128]:
+              - link "PWLead20261024_044500 Cre…" [ref=f2e129] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11886
+            - listitem [ref=f2e130]:
+              - link "testleaf testleaf (testle…" [ref=f2e131] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11882
+            - listitem [ref=f2e132]:
+              - link "Saranya Anbarasan (Testle…" [ref=f2e133] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11881
+            - listitem [ref=f2e134]:
+              - link "Saranya Anbarasan (Amazon…" [ref=f2e135] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11881
+            - listitem [ref=f2e136]:
+              - link "Ganesh A (Test Leaf Pvt L…" [ref=f2e137] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11880
+            - listitem [ref=f2e138]:
+              - link "Ganesh A (Test Leaf Pvt L…" [ref=f2e139] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;partyId=11879
+  - generic [ref=f2e141]:
+    - generic [ref=f2e142]:
+      - generic [ref=f2e143]:
+        - generic [ref=f2e144]: Shortcuts
+        - list [ref=f2e150]:
+          - listitem [ref=f2e151]:
+            - link "Create Lead" [ref=f2e152] [cursor=pointer]:
+              - /url: /crmsfa/control/createLeadForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e153]:
+            - link "Create Account" [ref=f2e154] [cursor=pointer]:
+              - /url: /crmsfa/control/createAccountForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e155]:
+            - link "Create Contact" [ref=f2e156] [cursor=pointer]:
+              - /url: /crmsfa/control/createContactForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e157]:
+            - link "Create Case" [ref=f2e158] [cursor=pointer]:
+              - /url: /crmsfa/control/createCaseForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e159]:
+            - link "Create Order" [ref=f2e160] [cursor=pointer]:
+              - /url: /crmsfa/control/createOrderMainScreen;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e161]:
+            - link "Write Email" [ref=f2e162] [cursor=pointer]:
+              - /url: /crmsfa/control/writeEmail;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1
+          - listitem [ref=f2e163]:
+            - link "Log Call" [ref=f2e164] [cursor=pointer]:
+              - /url: /crmsfa/control/logTaskForm&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;workEffortPurposeTypeId=WEPT_TASK_PHONE_CALL
+          - listitem [ref=f2e165]:
+            - link "New Task" [ref=f2e166] [cursor=pointer]:
+              - /url: /crmsfa/control/createTaskForm&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;workEffortTypeId=TASK
+          - listitem [ref=f2e167]:
+            - link "New Event" [ref=f2e168] [cursor=pointer]:
+              - /url: /crmsfa/control/createEventForm&;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1#63;workEffortTypeId=EVENT
+      - generic [ref=f2e169]: Create Account
+      - generic [ref=f2e177]: Create Contact
+      - generic [ref=f2e185]: Create Case
+      - generic [ref=f2e193]: Create Lead
+    - generic [ref=f2e201]:
+      - generic [ref=f2e202]: My Home
+      - generic [ref=f2e212]:
+        - generic [ref=f2e213]:
+          - generic [ref=f2e217]:
+            - generic [ref=f2e218] [cursor=pointer]: My Calendar
+            - generic [ref=f2e219]:
+              - link "Day" [ref=f2e220] [cursor=pointer]:
+                - /url: myHome?calendarView=day
+              - link "Week" [ref=f2e221] [cursor=pointer]:
+                - /url: myHome?calendarView=week
+              - link "Month" [ref=f2e222] [cursor=pointer]:
+                - /url: myHome?calendarView=month
+              - generic [ref=f2e223] [cursor=pointer]
+          - generic [ref=f2e224]:
+            - table [ref=f2e225]:
+              - rowgroup [ref=f2e226]:
+                - row [ref=f2e227]:
+                  - cell "Saturday October 24, 2026" [ref=f2e228]
+                  - cell [ref=f2e229]:
+                    - link "Previous" [ref=f2e230] [cursor=pointer]:
+                      - /url: /crmsfa/control/myHome;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?calendarView=day&start=1792713600000
+                    - text: "|"
+                    - link "Today" [ref=f2e231] [cursor=pointer]:
+                      - /url: /crmsfa/control/myHome;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?calendarView=day&start=1792800000000
+                    - text: "|"
+                    - link "Next" [ref=f2e232] [cursor=pointer]:
+                      - /url: /crmsfa/control/myHome;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?calendarView=day&start=1792886400000
+            - table [ref=f2e233]:
+              - rowgroup [ref=f2e234]:
+                - row [ref=f2e235]:
+                  - cell "8:00 AM" [ref=f2e236]:
+                    - text: 8:00 AM
+                    - link [ref=f2e237] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2008:00:00
+                  - cell [ref=f2e239]
+                - row [ref=f2e240]:
+                  - cell "9:00 AM" [ref=f2e241]:
+                    - text: 9:00 AM
+                    - link [ref=f2e242] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2009:00:00
+                  - cell [ref=f2e244]
+                - row [ref=f2e245]:
+                  - cell "10:00 AM" [ref=f2e246]:
+                    - text: 10:00 AM
+                    - link [ref=f2e247] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2010:00:00
+                  - cell [ref=f2e249]
+                - row [ref=f2e250]:
+                  - cell "11:00 AM" [ref=f2e251]:
+                    - text: 11:00 AM
+                    - link [ref=f2e252] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2011:00:00
+                  - cell [ref=f2e254]
+                - row [ref=f2e255]:
+                  - cell "12:00 PM" [ref=f2e256]:
+                    - text: 12:00 PM
+                    - link [ref=f2e257] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2012:00:00
+                  - cell [ref=f2e259]
+                - row [ref=f2e260]:
+                  - cell "1:00 PM" [ref=f2e261]:
+                    - text: 1:00 PM
+                    - link [ref=f2e262] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2013:00:00
+                  - cell [ref=f2e264]
+                - row [ref=f2e265]:
+                  - cell "2:00 PM" [ref=f2e266]:
+                    - text: 2:00 PM
+                    - link [ref=f2e267] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2014:00:00
+                  - cell [ref=f2e269]
+                - row [ref=f2e270]:
+                  - cell "3:00 PM" [ref=f2e271]:
+                    - text: 3:00 PM
+                    - link [ref=f2e272] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2015:00:00
+                  - cell [ref=f2e274]
+                - row [ref=f2e275]:
+                  - cell "4:00 PM" [ref=f2e276]:
+                    - text: 4:00 PM
+                    - link [ref=f2e277] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2016:00:00
+                  - cell [ref=f2e279]
+                - row [ref=f2e280]:
+                  - cell "5:00 PM" [ref=f2e281]:
+                    - text: 5:00 PM
+                    - link [ref=f2e282] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2017:00:00
+                  - cell [ref=f2e284]
+                - row [ref=f2e285]:
+                  - cell "6:00 PM" [ref=f2e286]:
+                    - text: 6:00 PM
+                    - link [ref=f2e287] [cursor=pointer]:
+                      - /url: /crmsfa/control/createEventForm;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?estimatedStartDate=10/24/26%2018:00:00
+                  - cell [ref=f2e289]
+        - generic [ref=f2e295]:
+          - generic [ref=f2e296] [cursor=pointer]: Pending Inbound Emails
+          - generic [ref=f2e297]:
+            - link "All Assigned to Me" [ref=f2e298] [cursor=pointer]:
+              - /url: /crmsfa/control/myHome;jsessionid=BD38C7902E5E745439F1D82B4D8F60FE.jvm1?viewPrefTypeId=EMAILS_MINE_ALL
+            - generic [ref=f2e299] [cursor=pointer]
+        - generic [ref=f2e305]:
+          - generic [ref=f2e306] [cursor=pointer]: Pending Outbound Emails
+          - generic [ref=f2e308] [cursor=pointer]
+      - generic [ref=f2e310]:
+        - generic [ref=f2e311]:
+          - link "Opentaps Open Source ERP + CRM" [ref=f2e312] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+          - text: 1.5.0. opentaps is a trademark of
+          - link "Open Source Strategies, Inc." [ref=f2e313] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f2e314]:
+          - text: This application is free software under the terms of the
+          - link "Affero General Public License v3" [ref=f2e315] [cursor=pointer]:
+            - /url: http://www.opentaps.org/about-opentaps/licensing
+          - text: WITH ABSOLUTELY NO WARRANTY. It is also available under
+          - link "commercial licenses" [ref=f2e316] [cursor=pointer]:
+            - /url: http://www.opentaps.org/services-support/professional-edition
+          - text: from Open Source Strategies, Inc.
+        - generic [ref=f2e317]:
+          - text: (c)
+          - link "Open Source Strategies, Inc." [ref=f2e318] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f2e319]:
+          - text: To learn more about opentaps, follow us on
+          - link [ref=f2e320] [cursor=pointer]:
+            - /url: http://www.facebook.com/pages/opentaps/285070770315
+            - img "Facebook" [ref=f2e321]
+          - text: And
+          - link [ref=f2e322] [cursor=pointer]:
+            - /url: http://twitter.com/opentaps
+            - img "twitter" [ref=f2e323]
+  - iframe
+  - iframe

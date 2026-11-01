@@ -1,0 +1,435 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - menubar [ref=f15e9]:
+      - textbox [ref=f15e10]
+      - table [ref=f15e11]:
+        - rowgroup [ref=f15e12]:
+          - row [ref=f15e13]:
+            - menuitem "CRM/SFA" [ref=f15e14]
+            - menuitem [ref=f15e15]:
+              - link "Docs Wiki" [ref=f15e16] [cursor=pointer]:
+                - /url: http://www.opentaps.org/docs/?externalLoginKey=EL52706748932
+            - menuitem [ref=f15e17]:
+              - link "eCommerce" [ref=f15e18] [cursor=pointer]:
+                - /url: /ecommerce/control/main?externalLoginKey=EL52706748932
+    - link [ref=f15e20] [cursor=pointer]:
+      - /url: /opentaps/
+      - img "opentaps CRM" [ref=f15e21]
+  - generic [ref=f15e22]:
+    - generic [ref=f15e23]:
+      - text: democsr2 |
+      - link "Profile" [ref=f15e24] [cursor=pointer]:
+        - /url: /crmsfa/control/myProfile
+      - text: "|"
+      - link "Shortcuts" [ref=f15e25] [cursor=pointer]:
+        - /url: javascript:showKeyboardShortcutsHelp();
+      - text: "|"
+      - link "Logout" [ref=f15e26] [cursor=pointer]:
+        - /url: /crmsfa/control/logout
+    - generic [ref=f15e27]:
+      - table [ref=f15e36]:
+        - rowgroup [ref=f15e37]:
+          - row [ref=f15e38]:
+            - cell [ref=f15e39]:
+              - textbox [ref=f15e43]
+            - cell [ref=f15e44]:
+              - table [ref=f15e48] [cursor=pointer]:
+                - rowgroup [ref=f15e49]:
+                  - row "Search" [ref=f15e50]:
+                    - cell [ref=f15e51]
+                    - cell [ref=f15e53]:
+                      - emphasis [ref=f15e54]:
+                        - button "Search" [ref=f15e55]
+                    - cell [ref=f15e56]
+      - link [ref=f15e58] [cursor=pointer]:
+        - /url: http://www.opentaps.org/docs/index.php?title=View_Lead_Screen&oldid=0
+        - img "Live help for this page on opentaps Wiki" [ref=f15e59]
+      - link [ref=f15e60] [cursor=pointer]:
+        - /url: http://www.opentaps.org/contact
+        - img "Get help from an opentaps Partner" [ref=f15e61]
+  - list:
+    - listitem [ref=f15e63]:
+      - link "My Home" [ref=f15e69] [cursor=pointer]:
+        - /url: /crmsfa/control/myHomeMain
+    - listitem [ref=f15e70]:
+      - link "Leads" [ref=f15e76] [cursor=pointer]:
+        - /url: /crmsfa/control/leadsMain
+    - listitem [ref=f15e77]:
+      - link "Contacts" [ref=f15e83] [cursor=pointer]:
+        - /url: /crmsfa/control/contactsMain
+    - listitem [ref=f15e84]:
+      - link "Accounts" [ref=f15e90] [cursor=pointer]:
+        - /url: /crmsfa/control/accountsMain
+    - listitem [ref=f15e91]:
+      - link "Cases" [ref=f15e97] [cursor=pointer]:
+        - /url: /crmsfa/control/casesMain
+    - listitem [ref=f15e98]:
+      - link "Activities" [ref=f15e104] [cursor=pointer]:
+        - /url: /crmsfa/control/activitiesMain
+    - listitem [ref=f15e105]:
+      - link "Orders" [ref=f15e111] [cursor=pointer]:
+        - /url: /crmsfa/control/ordersMain
+    - listitem [ref=f15e112]:
+      - link "opentaps" [ref=f15e118] [cursor=pointer]:
+        - /url: /opentaps?externalLoginKey=EL458028522074
+  - table [ref=f15e121]:
+    - rowgroup [ref=f15e122]:
+      - row [ref=f15e123]:
+        - 'cell "Last Viewed: PWLeadretry202610240455 C… Invalid20261024045200 Val… Taylor Playwright Copilot… PWLead20261024_044500 Cre… testleaf testleaf (testle… Saranya Anbarasan (Testle… Saranya Anbarasan (Amazon…" [ref=f15e124]':
+          - list [ref=f15e125]:
+            - listitem [ref=f15e126]:
+              - generic [ref=f15e127]: "Last Viewed:"
+            - listitem [ref=f15e128]:
+              - link "PWLeadretry202610240455 C…" [ref=f15e129] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11890
+            - listitem [ref=f15e130]:
+              - link "Invalid20261024045200 Val…" [ref=f15e131] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11888
+            - listitem [ref=f15e132]:
+              - link "Taylor Playwright Copilot…" [ref=f15e133] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11887
+            - listitem [ref=f15e134]:
+              - link "PWLead20261024_044500 Cre…" [ref=f15e135] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11886
+            - listitem [ref=f15e136]:
+              - link "testleaf testleaf (testle…" [ref=f15e137] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11882
+            - listitem [ref=f15e138]:
+              - link "Saranya Anbarasan (Testle…" [ref=f15e139] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11881
+            - listitem [ref=f15e140]:
+              - link "Saranya Anbarasan (Amazon…" [ref=f15e141] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11881
+  - generic [ref=f15e143]:
+    - generic [ref=f15e144]:
+      - generic [ref=f15e145]:
+        - generic [ref=f15e146]: Shortcuts
+        - list [ref=f15e152]:
+          - listitem [ref=f15e153]:
+            - link "My Leads" [ref=f15e154] [cursor=pointer]:
+              - /url: /crmsfa/control/myLeads
+          - listitem [ref=f15e155]:
+            - link "Create Lead" [ref=f15e156] [cursor=pointer]:
+              - /url: /crmsfa/control/createLeadForm
+          - listitem [ref=f15e157]:
+            - link "Find Leads" [ref=f15e158] [cursor=pointer]:
+              - /url: /crmsfa/control/findLeads
+          - listitem [ref=f15e159]:
+            - link "Request Catalog" [ref=f15e160] [cursor=pointer]:
+              - /url: /crmsfa/control/createCatalogRequestForm
+      - generic [ref=f15e161]: Create Account
+      - generic [ref=f15e169]: Create Contact
+      - generic [ref=f15e177]: Create Case
+      - generic [ref=f15e185]: Create Lead
+      - generic [ref=f15e193]:
+        - generic [ref=f15e194]: Form Letters
+        - table [ref=f15e201]:
+          - rowgroup [ref=f15e202]:
+            - row [ref=f15e203]:
+              - cell "Form Letter Template New User Welcome" [ref=f15e204]:
+                - text: Form Letter Template
+                - combobox [ref=f15e205]:
+                  - option "New User Welcome" [selected]
+            - row [ref=f15e206]:
+              - cell "Output Text" [ref=f15e207]:
+                - text: Output
+                - combobox [ref=f15e208]:
+                  - option "Text" [selected]
+                  - option "MS Word"
+                  - option "XML"
+                  - option "HTML"
+                  - option "PDF"
+            - row [ref=f15e209]:
+              - cell [ref=f15e210]:
+                - button "Generate Letter" [ref=f15e211] [cursor=pointer]
+    - generic [ref=f15e212]:
+      - generic [ref=f15e213]: View Lead
+      - generic [ref=f15e223]:
+        - generic [ref=f15e224]:
+          - generic [ref=f15e228]:
+            - generic [ref=f15e229]: Lead
+            - generic [ref=f15e230]:
+              - link "Duplicate Lead" [ref=f15e231] [cursor=pointer]:
+                - /url: duplicateLeadForm?partyId=11891
+              - link "Qualify Lead" [ref=f15e232] [cursor=pointer]:
+                - /url: javascript:document.qualifyLeadForm.submit()
+              - link "Edit" [ref=f15e233] [cursor=pointer]:
+                - /url: updateLeadForm?partyId=11891
+              - link "Delete" [ref=f15e234] [cursor=pointer]:
+                - /url: javascript:document.deleteLeadForm.submit()
+          - generic [ref=f15e235]:
+            - generic [ref=f15e237]:
+              - table [ref=f15e239]:
+                - rowgroup [ref=f15e240]:
+                  - row [ref=f15e241]:
+                    - cell [ref=f15e242]
+                    - cell [ref=f15e243]
+              - table [ref=f15e245]:
+                - rowgroup [ref=f15e246]:
+                  - row [ref=f15e247]:
+                    - cell "Company Name" [ref=f15e248]
+                    - cell "PW Invalid Email Company Copilot20261024_0455 (11891)" [ref=f15e249]
+                  - row [ref=f15e250]:
+                    - cell "First name" [ref=f15e251]
+                    - cell "Taylor" [ref=f15e252]
+                    - cell "Last name" [ref=f15e253]
+                    - cell "EmailTestCopilot20261024_0455" [ref=f15e254]
+                  - row [ref=f15e255]:
+                    - cell "Status" [ref=f15e256]
+                    - cell "Assigned" [ref=f15e257]
+                  - row [ref=f15e258]:
+                    - cell "First Name (Local)" [ref=f15e259]
+                    - cell [ref=f15e260]
+                    - cell "Last Name (Local)" [ref=f15e261]
+                    - cell [ref=f15e262]
+                  - row [ref=f15e263]:
+                    - cell "Salutation" [ref=f15e264]
+                    - cell [ref=f15e265]
+                    - cell "Birth Date" [ref=f15e266]
+                    - cell [ref=f15e267]
+                  - row [ref=f15e268]:
+                    - cell "Title" [ref=f15e269]
+                    - cell [ref=f15e270]
+                    - cell "Department" [ref=f15e271]
+                    - cell [ref=f15e272]
+                  - row [ref=f15e273]:
+                    - cell "Annual Revenue" [ref=f15e274]
+                    - cell [ref=f15e275]
+                    - cell "Preferred Currency" [ref=f15e276]
+                    - cell "USD - American Dollar" [ref=f15e277]
+                  - row [ref=f15e278]:
+                    - cell "Industry" [ref=f15e279]
+                    - cell [ref=f15e280]
+                    - cell "Number Of Employees" [ref=f15e281]
+                    - cell [ref=f15e282]
+                  - row [ref=f15e283]:
+                    - cell "Ownership" [ref=f15e284]
+                    - cell [ref=f15e285]
+                  - row [ref=f15e286]:
+                    - cell "SIC Code" [ref=f15e287]
+                    - cell [ref=f15e288]
+                    - cell "Ticker Symbol" [ref=f15e289]
+                    - cell [ref=f15e290]
+                  - row [ref=f15e291]:
+                    - cell "Description" [ref=f15e292]
+                    - cell [ref=f15e293]
+                  - row [ref=f15e294]:
+                    - cell "Important Note" [ref=f15e295]
+                    - cell [ref=f15e296]
+                  - row [ref=f15e297]:
+                    - cell "Classifications" [ref=f15e298]
+                    - cell [ref=f15e299]
+                  - row [ref=f15e300]:
+                    - cell "Sources" [ref=f15e301]
+                    - cell [ref=f15e302]
+                  - row [ref=f15e303]:
+                    - cell "Marketing Campaigns" [ref=f15e304]
+                    - cell [ref=f15e305]
+            - generic [ref=f15e307]:
+              - table [ref=f15e309]:
+                - rowgroup [ref=f15e310]:
+                  - row [ref=f15e311]:
+                    - cell [ref=f15e312]
+                    - cell [ref=f15e313]
+              - table [ref=f15e315]:
+                - rowgroup [ref=f15e316]:
+                  - row [ref=f15e317]:
+                    - cell "Person Responsible For" [ref=f15e318]
+                    - cell "Demo B2C CSR" [ref=f15e319]
+            - generic [ref=f15e321]:
+              - table [ref=f15e323]:
+                - rowgroup [ref=f15e324]:
+                  - row [ref=f15e325]:
+                    - cell [ref=f15e326]
+                    - cell [ref=f15e327]
+              - table [ref=f15e329]:
+                - rowgroup [ref=f15e330]:
+                  - row [ref=f15e331]:
+                    - cell "Reassign To" [ref=f15e332]
+                    - cell [ref=f15e333]:
+                      - textbox [ref=f15e334]
+                      - link [ref=f15e335] [cursor=pointer]:
+                        - /url: javascript:call_fieldlookup2(document.reassignToForm.newPartyId,'LookupTeamMembers;jsessionid=B3B3D669F29EC819BD25419B544487FD.jvm1');
+                        - img "Lookup" [ref=f15e336]
+                  - row [ref=f15e337]:
+                    - cell [ref=f15e338]
+                    - cell [ref=f15e339]:
+                      - button "Reassign" [ref=f15e340] [cursor=pointer]
+        - generic [ref=f15e342]:
+          - generic [ref=f15e343]: Custom Fields
+          - table [ref=f15e349]:
+            - rowgroup [ref=f15e350]:
+              - row [ref=f15e351]:
+                - cell
+                - cell "Field" [ref=f15e352]
+                - cell "Value" [ref=f15e354]
+                - cell [ref=f15e356]
+              - row [ref=f15e357]:
+                - cell
+                - cell [ref=f15e358]:
+                  - textbox [ref=f15e359]
+                - cell [ref=f15e360]:
+                  - textbox [ref=f15e361]
+                - cell [ref=f15e362]:
+                  - link [ref=f15e363] [cursor=pointer]:
+                    - /url: javascript:document.addCustomField.submit();
+                    - img "Add" [ref=f15e364]
+        - generic [ref=f15e366]:
+          - generic [ref=f15e370]:
+            - generic [ref=f15e371]: Contact Information
+            - combobox [ref=f15e373]:
+              - option "Create New" [selected]
+              - option "..."
+              - option "Address"
+              - option "Phone Number"
+              - option "Email"
+              - option "Web URL"
+              - option "Skype Contact"
+          - table [ref=f15e375]:
+            - rowgroup [ref=f15e376]:
+              - row [ref=f15e377]:
+                - columnheader "Contact Type" [ref=f15e378]
+                - columnheader "Contact Information" [ref=f15e379]
+                - columnheader "Purpose" [ref=f15e380]
+                - columnheader [ref=f15e381]
+              - row [ref=f15e382]:
+                - cell "Email Address" [ref=f15e383]
+                - cell [ref=f15e385]:
+                  - link "playwright-email-copilot20261024-0455@example.com" [ref=f15e387] [cursor=pointer]:
+                    - /url: /crmsfa/control/writeEmail?contactMechIdTo=10783&internalPartyId=11891&donePage=viewLead
+                - cell "Primary Email Address" [ref=f15e388]
+                - cell [ref=f15e390]:
+                  - link [ref=f15e391] [cursor=pointer]:
+                    - /url: /crmsfa/control/leadsEditContactMech?partyId=11891&contactMechId=10783&DONE_PAGE=viewLead?partyId%3d11891
+                    - img "Update" [ref=f15e392]
+                  - link [ref=f15e393] [cursor=pointer]:
+                    - /url: javascript:document.deleteContactMechForm0.submit()
+                    - img "Expire" [ref=f15e394]
+        - generic [ref=f15e395]:
+          - generic [ref=f15e399]:
+            - generic [ref=f15e400]: Pending Activities
+            - generic [ref=f15e401]:
+              - link "New Event" [ref=f15e402] [cursor=pointer]:
+                - /url: createEventForm?partyId=11891&workEffortTypeId=EVENT
+              - link "New Task" [ref=f15e403] [cursor=pointer]:
+                - /url: createTaskForm?partyId=11891&workEffortTypeId=TASK
+          - table [ref=f15e404]:
+            - rowgroup [ref=f15e405]:
+              - row [ref=f15e406]:
+                - cell [ref=f15e407]:
+                  - link "Type" [ref=f15e409] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=workEffortTypeId#ListPendingActivities
+                - cell [ref=f15e410]:
+                  - link "Purpose" [ref=f15e412] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=workEffortPurposeTypeId#ListPendingActivities
+                - cell [ref=f15e413]:
+                  - link "Activity" [ref=f15e415] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=workEffortName#ListPendingActivities
+                - cell [ref=f15e416]:
+                  - link "Status" [ref=f15e418] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&activitiesOrderBy=currentStatusId#ListPendingActivities
+                - cell [ref=f15e419]:
+                  - link "Scheduled Date" [ref=f15e421] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=estimatedStartDate#ListPendingActivities
+                - cell [ref=f15e422]:
+                  - link "Due Date" [ref=f15e424] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=estimatedCompletionDate#ListPendingActivities
+                - cell "Remove" [ref=f15e425]
+        - generic [ref=f15e426]:
+          - generic [ref=f15e430]:
+            - generic [ref=f15e431]: Activities History
+            - generic [ref=f15e432]:
+              - link "Log Call" [ref=f15e433] [cursor=pointer]:
+                - /url: logTaskForm?partyId=11891&workEffortPurposeTypeId=WEPT_TASK_PHONE_CALL
+              - link "Log Email" [ref=f15e434] [cursor=pointer]:
+                - /url: logTaskForm?partyId=11891&workEffortPurposeTypeId=WEPT_TASK_EMAIL&duration=0%3A00
+          - table [ref=f15e435]:
+            - rowgroup [ref=f15e436]:
+              - row [ref=f15e437]:
+                - cell [ref=f15e438]:
+                  - link "Type" [ref=f15e440] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&completedActivitiesOrderBy=workEffortTypeId#ListCompletedActivities
+                - cell [ref=f15e441]:
+                  - link "Purpose" [ref=f15e443] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&pendingActivitiesOrderBy=workEffortPurposeTypeId#ListCompletedActivities
+                - cell [ref=f15e444]:
+                  - link "Activity" [ref=f15e446] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&completedActivitiesOrderBy=workEffortName#ListCompletedActivities
+                - cell [ref=f15e447]:
+                  - link "Status" [ref=f15e449] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&completedActivitiesOrderBy=currentStatusId#ListCompletedActivities
+                - cell [ref=f15e450]:
+                  - link "Started Date" [ref=f15e452] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&completedActivitiesOrderBy=estimatedStartDate#ListCompletedActivities
+                - cell [ref=f15e453]:
+                  - link "Completion Date" [ref=f15e455] [cursor=pointer]:
+                    - /url: /crmsfa/control/viewLead?partyId=11891&completedActivitiesOrderBy=estimatedCompletionDate#ListCompletedActivities
+                - cell "Remove" [ref=f15e456]
+        - generic [ref=f15e457]:
+          - generic [ref=f15e458]: Catalog Requests
+          - table [ref=f15e463]:
+            - rowgroup [ref=f15e464]:
+              - row [ref=f15e465]:
+                - cell "Date" [ref=f15e466]
+                - cell "Address" [ref=f15e467]
+                - cell "Taken By" [ref=f15e468]
+                - cell "Fulfilled" [ref=f15e469]
+        - generic [ref=f15e470]:
+          - generic [ref=f15e474]:
+            - generic [ref=f15e475]: Bookmarks and Files
+            - generic [ref=f15e476]:
+              - link "Bookmark URL" [ref=f15e477] [cursor=pointer]:
+                - /url: /crmsfa/control/addContentUrlForLead?partyId=11891
+              - link "Upload File" [ref=f15e478] [cursor=pointer]:
+                - /url: /crmsfa/control/uploadContentForLead?partyId=11891
+          - table [ref=f15e479]:
+            - rowgroup [ref=f15e480]:
+              - row [ref=f15e481]:
+                - cell "Name" [ref=f15e482]
+                - cell "Classification" [ref=f15e483]
+                - cell "Description" [ref=f15e484]
+                - cell "Created Date" [ref=f15e485]
+                - cell [ref=f15e486]
+                - cell [ref=f15e487]
+        - generic [ref=f15e488]:
+          - generic [ref=f15e492]:
+            - generic [ref=f15e493]: Notes
+            - link "Create New" [ref=f15e495] [cursor=pointer]:
+              - /url: createLeadNoteForm?partyId=11891
+          - table [ref=f15e496]:
+            - rowgroup [ref=f15e497]:
+              - row [ref=f15e498]:
+                - cell "Note Info" [ref=f15e499]
+                - cell "Created By" [ref=f15e500]
+                - cell "Note Date Time" [ref=f15e501]
+                - cell [ref=f15e502]
+      - generic [ref=f15e503]:
+        - generic [ref=f15e504]:
+          - link "Opentaps Open Source ERP + CRM" [ref=f15e505] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+          - text: 1.5.0. opentaps is a trademark of
+          - link "Open Source Strategies, Inc." [ref=f15e506] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f15e507]:
+          - text: This application is free software under the terms of the
+          - link "Affero General Public License v3" [ref=f15e508] [cursor=pointer]:
+            - /url: http://www.opentaps.org/about-opentaps/licensing
+          - text: WITH ABSOLUTELY NO WARRANTY. It is also available under
+          - link "commercial licenses" [ref=f15e509] [cursor=pointer]:
+            - /url: http://www.opentaps.org/services-support/professional-edition
+          - text: from Open Source Strategies, Inc.
+        - generic [ref=f15e510]:
+          - text: (c)
+          - link "Open Source Strategies, Inc." [ref=f15e511] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=f15e512]:
+          - text: To learn more about opentaps, follow us on
+          - link [ref=f15e513] [cursor=pointer]:
+            - /url: http://www.facebook.com/pages/opentaps/285070770315
+            - img "Facebook" [ref=f15e514]
+          - text: And
+          - link [ref=f15e515] [cursor=pointer]:
+            - /url: http://twitter.com/opentaps
+            - img "twitter" [ref=f15e516]
+  - iframe
+  - iframe

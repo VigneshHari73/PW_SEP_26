@@ -1,0 +1,74 @@
+Postman Assertion Cheat Sheet (using pm + Chai)
+
+1. Status & Headers
+-------------------
+pm.test("Status is 200", () => {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Has Content-Type header", () => {
+    pm.response.to.have.header("Content-Type");
+});
+
+2. Properties
+-------------
+pm.test("Response has products property", () => {
+    pm.expect(pm.response.json()).to.have.property("products");
+});
+
+3. Equality
+-----------
+pm.test("First product name is Laptop", () => {
+    pm.expect(pm.response.json().products[0].name).to.eql("Laptop");
+});
+
+4. Inclusion
+------------
+pm.test("Product name contains Lap", () => {
+    pm.expect(pm.response.json().products[0].name).to.include("Lap");
+});
+
+5. Numeric Comparisons
+----------------------
+pm.test("Product count is above 0", () => {
+    pm.expect(pm.response.json().products.length).to.be.above(0);
+});
+
+pm.test("Response time is below 500ms", () => {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+6. Booleans
+-----------
+pm.test("Active flag is true", () => {
+    pm.expect(pm.response.json().products[0].active).to.be.true;
+});
+
+Quick Reference
+---------------
+- to.have.status(code) → HTTP status check
+- to.have.header(name) → header existence
+- to.have.property(key) → JSON property existence
+- to.eql(value) → exact match
+- to.include(value) → substring/array membership
+- to.be.above(number) / to.be.below(number) → numeric comparisons
+- to.be.true / to.be.false → boolean checks
+
+Newman
+
+npm -v
+node -v
+If not installed
+npm install - newman
+newman -v
+npm install -g newman-reporter-htmlextra
+
+
+newman run collection.json
+new run collectoion.json -e environment.json
+newman run collection.json -e environment.json -r cli,json --reporter-json-export result.json
+
+newman run collection.json --global-var "base_url=https://dummyjson.com"
+newman run colection.json --folder "login API"
+newman run collection.json -d data.csv
+newman run Ecom.postman_collection.json -e Env1.postman_environment.json -r cli,html --reporter-html-export result.html

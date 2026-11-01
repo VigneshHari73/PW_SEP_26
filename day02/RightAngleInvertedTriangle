@@ -1,0 +1,11 @@
+let stars = [4,2,1]
+let space = [0,1,2]
+
+
+for (let i = 0; i < stars.length; i++) {
+   
+    let line = " ".repeat(space[i])+("*".repeat(stars[i]));
+    console.log(line);
+    
+    
+}
